@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src="assets/js/main.js"></script>
-    <title>Dia dos Namorados</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário Rozely 💕</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Lato:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="valentines-day">
-        <div class="envelope"></div>
-        <div class="heart"></div>
-        <div class="text">FELIZ DÍA DOS<br>DOS NAMORADOS<br>para<br>(nome)</div>
-        <div class="front"></div>
+  <div class="scene" id="scene">
+
+    <div id="envView">
+      <div class="env-wrap" onclick="openEnv()">
+        <div class="env-body">
+          <div class="env-flap" id="flap"></div>
+          <div class="env-l"></div>
+          <div class="env-r"></div>
+          <div class="env-b"></div>
+          <div class="env-heart">💓</div>
+        </div>
+        <div class="hint">✨ clique para abrir ✨</div>
+      </div>
     </div>
 
-    <div id="card">
-        <div class="side one">
-            <i class="fas fa-heart"></i>
+    <div class="card-view" id="cardView">
+      <div class="card-outer">
+        <div class="c-header">
+          <div class="c-hearts">🌹 💕 🌹</div>
+          <div class="c-title">💓 Para minha amada <strong>Rozely</strong> 💓</div>
         </div>
-        <div class="side two">
-            <h2>🌷🌷🌷</h2>
-            <p>Minha querida (nome)❤️,</p>
-            <p>Com Carinho e amor<br>(nome do usuario)</p>
+        <div class="c-body">
+          <div class="c-text">
+            Hoje é o seu dia — e eu não podia deixar passar sem te dizer
+            o quanto você é especial pra mim. 🌟<br><br>
+            Você é daquelas pessoas que deixam tudo mais leve só de aparecer.
+            O seu jeito, o seu sorriso, a sua energia... tudo em você me faz
+            querer estar mais perto. 💓<br><br>
+            Eu não sei exatamente o que somos ainda, mas sei que quando
+            estou do seu lado, o mundo parece fazer mais sentido.
+            E isso já é suficiente pra eu querer te ver feliz hoje,
+            amanhã e em todos os aniversários que estiverem por vir. 🥂<br><br>
+            Que esse dia seja tão incrível quanto você é.
+            E que a pessoa que você encontrar no espelho hoje
+            saiba o quanto é especial — mesmo que às vezes esqueça. 🌷
+          </div>
+          <div class="c-sign">Com carinho (e um pouco mais que isso), com grande amor,<br>Rubens 💕</div>
         </div>
+        <div class="c-footer">
+          <div class="f-hearts">💗 💕 💗 💕 💗</div>
+        </div>
+      </div>
     </div>
+
+  </div>
+  <script src="./assets/script/main.js"></script>
 </body>
 </html>
